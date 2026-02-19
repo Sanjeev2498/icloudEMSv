@@ -1,0 +1,27 @@
+{
+  "name": "student-portal-system",
+  "version": "1.0.0",
+  "description": "Modern responsive Student Portal Website similar to a school ERP system",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "mocha test/**/*.test.js --timeout 10000"
+  },
+  "keywords": ["student", "portal", "erp", "education"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.10",
+    "supertest": "^6.3.3",
+    "fast-check": "^3.13.2"
+  }
+}

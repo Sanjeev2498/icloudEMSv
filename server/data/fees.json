@@ -1,0 +1,37 @@
+[
+  {
+    "rollNumber": "2401420048",
+    "totalFees": 315900,
+    "paidAmount": 315800,
+    "feeBreakdown": [
+      { "headName": "SEMESTER III FEE", "amount": 125000.00 },
+      { "headName": "TRANSPORT FEE", "amount": 25000.00 },
+      { "headName": "CHEQUE BOUNCE CHARGES", "amount": 500.00 },
+      { "headName": "NON WEARING ID CARD FINE", "amount": 300.00 },
+      { "headName": "INDISCIPLINE FINE", "amount": 15000.00 },
+      { "headName": "TRANSPORT FEE - EVEN SEMESTER", "amount": 25000.00 },
+      { "headName": "SEMESTER IV FEE", "amount": 125000.00 },
+      { "headName": "ANNUAL YOUTH RED CROSS (YRC) SHARE", "amount": 100.00 }
+    ]
+  },
+  {
+    "rollNumber": "2021002",
+    "totalFees": 50000,
+    "paidAmount": 35000,
+    "feeBreakdown": [
+      { "headName": "SEMESTER FEE", "amount": 40000.00 },
+      { "headName": "LIBRARY FEE", "amount": 5000.00 },
+      { "headName": "EXAM FEE", "amount": 5000.00 }
+    ]
+  },
+  {
+    "rollNumber": "2021003",
+    "totalFees": 50000,
+    "paidAmount": 50000,
+    "feeBreakdown": [
+      { "headName": "SEMESTER FEE", "amount": 40000.00 },
+      { "headName": "LIBRARY FEE", "amount": 5000.00 },
+      { "headName": "EXAM FEE", "amount": 5000.00 }
+    ]
+  }
+]

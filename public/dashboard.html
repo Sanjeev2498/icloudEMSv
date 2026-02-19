@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal - Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dashboard-page">
+  <!-- Header Bar -->
+  <header class="header-bar">
+    <div class="header-left">
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <h2 class="header-title">Student Portal</h2>
+    </div>
+    <div class="header-right">
+      <div class="student-info" onclick="loadContent('personalinfo')" style="cursor: pointer;">
+        <span class="student-icon" id="studentIcon">👨‍🎓</span>
+        <div class="student-details">
+          <span class="student-name" id="studentName">Loading...</span>
+          <span class="student-roll" id="studentRoll">-</span>
+        </div>
+      </div>
+      <button class="logout-btn" id="logoutBtn">
+        <i class="fas fa-sign-out-alt"></i> Logout
+      </button>
+    </div>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar" id="sidebar">
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-item active" data-page="dashboard">
+        <i class="fas fa-home"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="#" class="nav-item" data-page="attendance">
+        <i class="fas fa-calendar-check"></i>
+        <span>Attendance</span>
+      </a>
+      <a href="#" class="nav-item" data-page="timetable">
+        <i class="fas fa-clock"></i>
+        <span>Timetable</span>
+      </a>
+      <a href="#" class="nav-item" data-page="reportcard">
+        <i class="fas fa-file-alt"></i>
+        <span>Report Card</span>
+      </a>
+      <a href="#" class="nav-item" data-page="fees">
+        <i class="fas fa-money-bill-wave"></i>
+        <span>Fees</span>
+      </a>
+      <a href="#" class="nav-item" data-page="personalinfo">
+        <i class="fas fa-user-circle"></i>
+        <span>Personal Info</span>
+      </a>
+      <a href="#" class="nav-item" data-page="universityinfo">
+        <i class="fas fa-university"></i>
+        <span>University Info</span>
+      </a>
+      <a href="#" class="nav-item disabled" data-page="holidays">
+        <i class="fas fa-umbrella-beach"></i>
+        <span>Holidays</span>
+      </a>
+      <a href="#" class="nav-item disabled" data-page="notifications">
+        <i class="fas fa-bell"></i>
+        <span>Notifications</span>
+      </a>
+      <a href="#" class="nav-item disabled" data-page="assignments">
+        <i class="fas fa-tasks"></i>
+        <span>Assignments</span>
+      </a>
+      <a href="#" class="nav-item disabled" data-page="enrollment">
+        <i class="fas fa-user-plus"></i>
+        <span>Enrollment</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main-content" id="mainContent">
+    <div class="content-wrapper">
+      <!-- Content will be loaded dynamically here -->
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

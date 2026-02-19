@@ -1,0 +1,20 @@
+[
+  {
+    "rollNumber": "2401420048",
+    "totalDays": 29,
+    "presentDays": 24,
+    "absentDays": 5
+  },
+  {
+    "rollNumber": "2021002",
+    "totalDays": 180,
+    "presentDays": 172,
+    "absentDays": 8
+  },
+  {
+    "rollNumber": "2021003",
+    "totalDays": 180,
+    "presentDays": 158,
+    "absentDays": 22
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "day": "Monday",
+    "periods": [
+      { "periodNumber": 1, "subject": "ADA", "teacher": "Dr. Kumar", "time": "09:10-10:00" },
+      { "periodNumber": 2, "subject": "DBMS", "teacher": "Ms. Verma", "time": "10:00-10:50" },
+      { "periodNumber": 3, "subject": "COMPETITIVE CODING 2", "teacher": "Mr. Sharma", "time": "10:50-11:40" },
+      { "periodNumber": 4, "subject": "O.E", "teacher": "Dr. Singh", "time": "12:30-01:20" }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "periods": [
+      { "periodNumber": 1, "subject": "COMMUNICATION AND PERSONALITY", "teacher": "Mrs. Gupta", "time": "09:10-10:00" },
+      { "periodNumber": 2, "subject": "ADA", "teacher": "Dr. Kumar", "time": "10:00-10:50" },
+      { "periodNumber": 3, "subject": "DBMS", "teacher": "Ms. Verma", "time": "10:50-11:40" },
+      { "periodNumber": 4, "subject": "COMPETITIVE CODING 2", "teacher": "Mr. Sharma", "time": "01:20-02:10" },
+      { "periodNumber": 5, "subject": "O.E", "teacher": "Dr. Singh", "time": "02:10-03:00" }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "periods": [
+      { "periodNumber": 1, "subject": "DBMS", "teacher": "Ms. Verma", "time": "09:10-10:00" },
+      { "periodNumber": 2, "subject": "COMPETITIVE CODING 2", "teacher": "Mr. Sharma", "time": "10:00-10:50" },
+      { "periodNumber": 3, "subject": "ADA", "teacher": "Dr. Kumar", "time": "12:30-01:20" },
+      { "periodNumber": 4, "subject": "COMMUNICATION AND PERSONALITY", "teacher": "Mrs. Gupta", "time": "01:20-02:10" },
+      { "periodNumber": 5, "subject": "O.E", "teacher": "Dr. Singh", "time": "02:10-03:00" },
+      { "periodNumber": 6, "subject": "DBMS", "teacher": "Ms. Verma", "time": "03:00-03:50" }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "periods": [
+      { "periodNumber": 1, "subject": "O.E", "teacher": "Dr. Singh", "time": "09:10-10:00" },
+      { "periodNumber": 2, "subject": "COMMUNICATION AND PERSONALITY", "teacher": "Mrs. Gupta", "time": "10:00-10:50" },
+      { "periodNumber": 3, "subject": "ADA", "teacher": "Dr. Kumar", "time": "10:50-11:40" },
+      { "periodNumber": 4, "subject": "COMPETITIVE CODING 2", "teacher": "Mr. Sharma", "time": "12:30-01:20" },
+      { "periodNumber": 5, "subject": "DBMS", "teacher": "Ms. Verma", "time": "01:20-02:10" }
+    ]
+  },
+  {
+    "day": "Friday",
+    "periods": [
+      { "periodNumber": 1, "subject": "COMPETITIVE CODING 2", "teacher": "Mr. Sharma", "time": "09:10-10:00" },
+      { "periodNumber": 2, "subject": "ADA", "teacher": "Dr. Kumar", "time": "10:00-10:50" },
+      { "periodNumber": 3, "subject": "COMMUNICATION AND PERSONALITY", "teacher": "Mrs. Gupta", "time": "10:50-11:40" },
+      { "periodNumber": 4, "subject": "DBMS", "teacher": "Ms. Verma", "time": "12:30-01:20" },
+      { "periodNumber": 5, "subject": "O.E", "teacher": "Dr. Singh", "time": "01:20-02:10" },
+      { "periodNumber": 6, "subject": "ADA", "teacher": "Dr. Kumar", "time": "02:10-03:00" }
+    ]
+  }
+]

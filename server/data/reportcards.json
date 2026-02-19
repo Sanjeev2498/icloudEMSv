@@ -1,0 +1,38 @@
+[
+  {
+    "rollNumber": "2401420048",
+    "subjects": [
+      { "code": "ENCS01", "name": "OBJECT ORIENTED PROGRAMMING USING C++", "credits": 4, "grade": "B+" },
+      { "code": "ENCS02", "name": "OBJECT ORIENTED PROGRAMMING USING C++ LAB", "credits": 1, "grade": "A" },
+      { "code": "ENMA02", "name": "LINEAR ALGEBRA AND ORDINARY DIFFERENTIAL EQUATIONS", "credits": 4, "grade": "B+" },
+      { "code": "ENPH01", "name": "ENGINEERING PHYSICS", "credits": 4, "grade": "B" },
+      { "code": "ENPH03", "name": "ENGINEERING PHYSICS LAB", "credits": 1, "grade": "B+" },
+      { "code": "ENSH12", "name": "MINI PROJECT-I", "credits": 2, "grade": "A+" },
+      { "code": "ENSP04", "name": "DATA VISUALIZATION USING PYTHON LAB", "credits": 2, "grade": "C" },
+      { "code": "OECS08", "name": "STRATEGY OF LEADERSHIP", "credits": 3, "grade": "A+" },
+      { "code": "MECO08", "name": "FOUNDATION OF ANALOG & DIGITAL ELECTRONICS", "credits": 2, "grade": "B+" }
+    ]
+  },
+  {
+    "rollNumber": "2021002",
+    "subjects": [
+      { "name": "Mathematics", "maxMarks": 100, "obtainedMarks": 95 },
+      { "name": "English", "maxMarks": 100, "obtainedMarks": 92 },
+      { "name": "Science", "maxMarks": 100, "obtainedMarks": 88 },
+      { "name": "Hindi", "maxMarks": 100, "obtainedMarks": 85 },
+      { "name": "Social Studies", "maxMarks": 100, "obtainedMarks": 90 },
+      { "name": "Computer Science", "maxMarks": 100, "obtainedMarks": 94 }
+    ]
+  },
+  {
+    "rollNumber": "2021003",
+    "subjects": [
+      { "name": "Mathematics", "maxMarks": 100, "obtainedMarks": 72 },
+      { "name": "English", "maxMarks": 100, "obtainedMarks": 68 },
+      { "name": "Science", "maxMarks": 100, "obtainedMarks": 75 },
+      { "name": "Hindi", "maxMarks": 100, "obtainedMarks": 70 },
+      { "name": "Social Studies", "maxMarks": 100, "obtainedMarks": 78 },
+      { "name": "Computer Science", "maxMarks": 100, "obtainedMarks": 80 }
+    ]
+  }
+]
