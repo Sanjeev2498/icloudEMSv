@@ -80,12 +80,23 @@ if (document.getElementById('mainContent')) {
         const studentRoll = document.getElementById('studentRoll');
         const studentIcon = document.getElementById('studentIcon');
         
-        studentName.textContent = student.name || 'Student';
-        studentRoll.textContent = student.rollNumber || '';
-        studentIcon.textContent = student.profileIcon || '👨‍🎓';
+        if (studentName) studentName.textContent = student.name || 'Student';
+        if (studentRoll) studentRoll.textContent = student.rollNumber || '';
+        if (studentIcon) studentIcon.textContent = student.profileIcon || '👨‍🎓';
+      } else {
+        // Set default values if fetch fails
+        const studentName = document.getElementById('studentName');
+        const studentRoll = document.getElementById('studentRoll');
+        if (studentName) studentName.textContent = 'Student';
+        if (studentRoll) studentRoll.textContent = '2401420048';
       }
     } catch (error) {
       console.error('Error loading student info:', error);
+      // Set default values on error
+      const studentName = document.getElementById('studentName');
+      const studentRoll = document.getElementById('studentRoll');
+      if (studentName) studentName.textContent = 'Student';
+      if (studentRoll) studentRoll.textContent = '2401420048';
     }
   }
 
