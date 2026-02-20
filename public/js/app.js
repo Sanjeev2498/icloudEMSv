@@ -257,8 +257,8 @@ if (document.getElementById('mainContent')) {
             </div>
             <div class="card-content">
               <h3>Holidays</h3>
-              <p class="card-value">Coming Soon</p>
-              <p class="card-label">View Holiday Calendar</p>
+              <p class="card-value">View</p>
+              <p class="card-label">Holiday Calendar</p>
             </div>
           </div>
 
@@ -268,7 +268,7 @@ if (document.getElementById('mainContent')) {
             </div>
             <div class="card-content">
               <h3>Notifications</h3>
-              <p class="card-value">Coming Soon</p>
+              <p class="card-value">View</p>
               <p class="card-label">Check Announcements</p>
             </div>
           </div>
@@ -279,8 +279,8 @@ if (document.getElementById('mainContent')) {
             </div>
             <div class="card-content">
               <h3>Assignments</h3>
-              <p class="card-value">Coming Soon</p>
-              <p class="card-label">View Pending Tasks</p>
+              <p class="card-value">View</p>
+              <p class="card-label">Pending Tasks</p>
             </div>
           </div>
 
@@ -290,7 +290,7 @@ if (document.getElementById('mainContent')) {
             </div>
             <div class="card-content">
               <h3>Enrollment</h3>
-              <p class="card-value">Coming Soon</p>
+              <p class="card-value">View</p>
               <p class="card-label">Course Registration</p>
             </div>
           </div>
