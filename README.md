@@ -77,7 +77,6 @@ Use these credentials to login:
 
 | Roll Number | Password | Name |
 |------------|----------|------|
-| 2401420048 | Simran@111 | Simran |
 | 2021002 | password123 | Priya Patel |
 | 2021003 | password123 | Amit Kumar |
 
