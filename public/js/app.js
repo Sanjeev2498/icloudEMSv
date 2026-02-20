@@ -824,11 +824,8 @@ if (document.getElementById('mainContent')) {
 
   // Initialize dashboard
   async function init() {
-    const isValid = await validateSession();
-    if (isValid) {
-      await loadStudentInfo();
-      loadContent('dashboard');
-    }
+    await loadStudentInfo();
+    loadContent('dashboard');
   }
 
   init();
