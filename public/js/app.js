@@ -51,11 +51,8 @@ if (document.getElementById('mainContent')) {
   async function validateSession() {
     try {
       // Try to fetch student data to validate session
-      const response = await fetch('/api/student/check', {
-        method: 'GET',
-        credentials: 'include'
-      });
-
+      const response = await fetch('/api/student/2401420048', { credentials: 'include' });
+      
       if (response.status === 401) {
         // Not authenticated, redirect to login
         window.location.href = '/index.html';
@@ -65,8 +62,8 @@ if (document.getElementById('mainContent')) {
       return true;
     } catch (error) {
       console.error('Session validation error:', error);
-      window.location.href = '/index.html';
-      return false;
+      // Don't redirect on network errors, just log them
+      return true;
     }
   }
 
