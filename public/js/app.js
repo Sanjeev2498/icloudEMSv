@@ -250,6 +250,50 @@ if (document.getElementById('mainContent')) {
               <p class="card-label">Check Your Grades</p>
             </div>
           </div>
+
+          <div class="card overview-card" onclick="loadContent('holidays')" style="cursor: pointer;">
+            <div class="card-icon" style="background: #9b59b6;">
+              <i class="fas fa-umbrella-beach"></i>
+            </div>
+            <div class="card-content">
+              <h3>Holidays</h3>
+              <p class="card-value">Coming Soon</p>
+              <p class="card-label">View Holiday Calendar</p>
+            </div>
+          </div>
+
+          <div class="card overview-card" onclick="loadContent('notifications')" style="cursor: pointer;">
+            <div class="card-icon" style="background: #e67e22;">
+              <i class="fas fa-bell"></i>
+            </div>
+            <div class="card-content">
+              <h3>Notifications</h3>
+              <p class="card-value">Coming Soon</p>
+              <p class="card-label">Check Announcements</p>
+            </div>
+          </div>
+
+          <div class="card overview-card" onclick="loadContent('assignments')" style="cursor: pointer;">
+            <div class="card-icon" style="background: #16a085;">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="card-content">
+              <h3>Assignments</h3>
+              <p class="card-value">Coming Soon</p>
+              <p class="card-label">View Pending Tasks</p>
+            </div>
+          </div>
+
+          <div class="card overview-card" onclick="loadContent('enrollment')" style="cursor: pointer;">
+            <div class="card-icon" style="background: #34495e;">
+              <i class="fas fa-user-plus"></i>
+            </div>
+            <div class="card-content">
+              <h3>Enrollment</h3>
+              <p class="card-value">Coming Soon</p>
+              <p class="card-label">Course Registration</p>
+            </div>
+          </div>
         </div>
 
         <div class="card" style="margin-top: 25px;">
