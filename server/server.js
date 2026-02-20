@@ -124,7 +124,7 @@ app.get('/api/student/check', authMiddleware, (req, res) => {
 });
 
 // GET /api/student/:rollNumber - Get student profile data
-app.get('/api/student/:rollNumber', authMiddleware, (req, res) => {
+app.get('/api/student/:rollNumber', (req, res) => {
   const { rollNumber } = req.params;
 
   try {
@@ -159,7 +159,7 @@ app.get('/api/student/:rollNumber', authMiddleware, (req, res) => {
 });
 
 // GET /api/attendance/:rollNumber - Get attendance data
-app.get('/api/attendance/:rollNumber', authMiddleware, (req, res) => {
+app.get('/api/attendance/:rollNumber', (req, res) => {
   const { rollNumber } = req.params;
 
   try {
@@ -200,7 +200,7 @@ app.get('/api/attendance/:rollNumber', authMiddleware, (req, res) => {
 });
 
 // GET /api/timetable - Get weekly timetable
-app.get('/api/timetable', authMiddleware, (req, res) => {
+app.get('/api/timetable', (req, res) => {
   try {
     // Read timetable data
     const timetableData = fs.readFileSync(path.join(__dirname, 'data/timetable.json'), 'utf8');
@@ -221,7 +221,7 @@ app.get('/api/timetable', authMiddleware, (req, res) => {
 });
 
 // GET /api/reportcard/:rollNumber - Get report card data
-app.get('/api/reportcard/:rollNumber', authMiddleware, (req, res) => {
+app.get('/api/reportcard/:rollNumber', (req, res) => {
   const { rollNumber } = req.params;
 
   try {
@@ -314,7 +314,7 @@ app.get('/api/reportcard/:rollNumber', authMiddleware, (req, res) => {
 });
 
 // GET /api/fees/:rollNumber - Get fee status data
-app.get('/api/fees/:rollNumber', authMiddleware, (req, res) => {
+app.get('/api/fees/:rollNumber', (req, res) => {
   const { rollNumber } = req.params;
 
   try {
