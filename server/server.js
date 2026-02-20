@@ -17,12 +17,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Session Configuration
 app.use(session({
-  secret: 'student-portal-secret-key-2024',
+  secret: process.env.SESSION_SECRET || 'student-portal-secret-key-2024',
   resave: false,
   saveUninitialized: false,
   cookie: {
     maxAge: 1000 * 60 * 60 * 24, // 24 hours
-    httpOnly: true
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production' // Use secure cookies in production
   }
 }));
 
