@@ -17,21 +17,21 @@
         "subjectName": "COMPETITIVE CODING-II",
         "courseCode": "AUC002",
         "subjectType": "PP",
-        "attended": 17,
+        "attended": 18,
         "delivered": 24
       },
       {
         "subjectName": "DATABASE MANAGEMENT SYSTEMS",
         "courseCode": "ENCS204",
         "subjectType": "PP",
-        "attended": 18,
+        "attended": 19,
         "delivered": 26
       },
       {
         "subjectName": "ANALYSIS AND DESIGN OF ALGORITHMS",
         "courseCode": "ENCS202",
         "subjectType": "PP",
-        "attended": 16,
+        "attended": 19,
         "delivered": 25
       },
       {
@@ -45,7 +45,7 @@
         "subjectName": "PROBABILITY AND STATISTICS",
         "courseCode": "ENMA202",
         "subjectType": "PP",
-        "attended": 16,
+        "attended": 17,
         "delivered": 23
       },
       {
@@ -59,7 +59,7 @@
         "subjectName": "INTRODUCTION TO DATA SCIENCE",
         "courseCode": "ENSP204",
         "subjectType": "PP",
-        "attended": 18,
+        "attended": 20,
         "delivered": 26
       },
       {
