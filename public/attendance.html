@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iCloudEMS V2 - Attendance Details</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="attendance-page">
+  <!-- Header Bar -->
+  <header class="attendance-header">
+    <div class="header-content">
+      <button class="back-btn" id="backBtn">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+      <h1 class="page-title">Attendance Details</h1>
+      <span class="version-badge">2.3.0</span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="attendance-main">
+    <div class="watermark-logo"></div>
+    
+    <!-- Subject Wise Attendance Section -->
+    <section class="subject-attendance-section">
+      <h2 class="section-title">Subject Wise Attendance</h2>
+      
+      <!-- Date Range Card -->
+      <div class="date-range-card" id="dateRangeCard">
+        <div class="date-item">
+          <span class="date-label">From date</span>
+          <span class="date-value" id="fromDate">-</span>
+        </div>
+        <div class="date-item">
+          <span class="date-label">To date</span>
+          <span class="date-value" id="toDate">-</span>
+        </div>
+      </div>
+
+      <!-- Subject Cards Container -->
+      <div class="subject-cards-container" id="subjectCardsContainer">
+        <!-- Subject cards will be dynamically inserted here -->
+      </div>
+
+      <!-- Total Attendance Summary -->
+      <div class="total-attendance-card" id="totalAttendanceCard">
+        <div class="total-header">
+          <span class="total-label">Attended/Delivered</span>
+          <span class="total-label">Percent</span>
+        </div>
+        <div class="total-values">
+          <span class="total-percentage-label">Total Percentage</span>
+          <span class="total-count" id="totalCount">-/-</span>
+          <span class="total-percentage" id="totalPercentage">- %</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Error Message -->
+    <div class="error-message" id="errorMessage" style="display: none;">
+      <i class="fas fa-exclamation-circle"></i>
+      <p id="errorText">Unable to load attendance data</p>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+      <i class="fas fa-spinner fa-spin"></i>
+      <p>Loading attendance data...</p>
+    </div>
+  </main>
+
+  <script src="js/attendance.js"></script>
+</body>
+</html>

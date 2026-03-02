@@ -207,7 +207,7 @@ if (document.getElementById('mainContent')) {
         </h1>
         
         <div class="dashboard-grid">
-          <div class="card overview-card" onclick="loadContent('attendance')" style="cursor: pointer;">
+          <div class="card overview-card" id="attendanceCard" style="cursor: pointer;">
             <div class="card-icon" style="background: #3498db;">
               <i class="fas fa-calendar-check"></i>
             </div>
@@ -316,6 +316,16 @@ if (document.getElementById('mainContent')) {
           </div>
         </div>
       `;
+      
+      // Add click handler for attendance card to navigate to attendance.html
+      setTimeout(() => {
+        const attendanceCard = document.getElementById('attendanceCard');
+        if (attendanceCard) {
+          attendanceCard.addEventListener('click', () => {
+            window.location.href = `attendance.html?roll=${rollNumber}`;
+          });
+        }
+      }, 0);
     } catch (error) {
       container.innerHTML = `
         <div class="card">

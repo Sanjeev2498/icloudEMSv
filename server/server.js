@@ -354,6 +354,57 @@ app.get('/api/fees/:rollNumber', (req, res) => {
   }
 });
 
+// GET /api/subject-attendance/:rollNumber - Get subject-wise attendance data
+app.get('/api/subject-attendance/:rollNumber', (req, res) => {
+  const { rollNumber } = req.params;
+
+  try {
+    // Read subject-wise attendance data
+    const attendanceData = fs.readFileSync(path.join(__dirname, 'data/subject-attendance.json'), 'utf8');
+    const attendanceRecords = JSON.parse(attendanceData);
+
+    // Find attendance by roll number
+    const studentAttendance = attendanceRecords.find(a => a.rollNumber === rollNumber);
+
+    if (!studentAttendance) {
+      return res.status(404).json({
+        success: false,
+        message: 'Attendance data not found'
+      });
+    }
+
+    // Calculate total attended and total delivered across all subjects
+    let totalAttended = 0;
+    let totalDelivered = 0;
+
+    studentAttendance.subjects.forEach(subject => {
+      totalAttended += subject.attended;
+      totalDelivered += subject.delivered;
+    });
+
+    // Calculate total percentage
+    const totalPercentage = totalDelivered > 0 
+      ? parseFloat(((totalAttended / totalDelivered) * 100).toFixed(2))
+      : 0;
+
+    res.json({
+      success: true,
+      dateRange: studentAttendance.dateRange,
+      subjects: studentAttendance.subjects,
+      totalAttended: totalAttended,
+      totalDelivered: totalDelivered,
+      totalPercentage: totalPercentage
+    });
+
+  } catch (error) {
+    console.error('Error fetching subject-wise attendance data:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Server error. Please try again later.'
+    });
+  }
+});
+
 // Start Server (only if not in test mode)
 if (require.main === module) {
   app.listen(PORT, () => {

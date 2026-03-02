@@ -1,0 +1,95 @@
+[
+  {
+    "rollNumber": "2401420048",
+    "dateRange": {
+      "from": "01/01/2026",
+      "to": "31/05/2026"
+    },
+    "subjects": [
+      {
+        "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
+        "courseCode": "ENCS254",
+        "subjectType": "PR",
+        "attended": 10,
+        "delivered": 12
+      },
+      {
+        "subjectName": "COMPETITIVE CODING-II",
+        "courseCode": "AUC002",
+        "subjectType": "PP",
+        "attended": 17,
+        "delivered": 24
+      },
+      {
+        "subjectName": "DATABASE MANAGEMENT SYSTEMS",
+        "courseCode": "ENCS204",
+        "subjectType": "PP",
+        "attended": 18,
+        "delivered": 26
+      },
+      {
+        "subjectName": "ANALYSIS AND DESIGN OF ALGORITHMS",
+        "courseCode": "ENCS202",
+        "subjectType": "PP",
+        "attended": 16,
+        "delivered": 25
+      },
+      {
+        "subjectName": "DATA SCIENCE LAB",
+        "courseCode": "ENSP254",
+        "subjectType": "PR",
+        "attended": 8,
+        "delivered": 8
+      },
+      {
+        "subjectName": "PROBABILITY AND STATISTICS",
+        "courseCode": "ENMA202",
+        "subjectType": "PP",
+        "attended": 16,
+        "delivered": 23
+      },
+      {
+        "subjectName": "ANALYSIS AND DESIGN OF ALGORITHMS LAB",
+        "courseCode": "ENCS256",
+        "subjectType": "PR",
+        "attended": 6,
+        "delivered": 8
+      },
+      {
+        "subjectName": "INTRODUCTION TO DATA SCIENCE",
+        "courseCode": "ENSP204",
+        "subjectType": "PP",
+        "attended": 18,
+        "delivered": 26
+      },
+      {
+        "subjectName": "COMMUNICATION & PERSONALITY DEVELOPMENT",
+        "courseCode": "AEC007",
+        "subjectType": "PP",
+        "attended": 15,
+        "delivered": 18
+      },
+      {
+        "subjectName": "FASHION DESIGN DEVELOPMENT",
+        "courseCode": "ADOEFD056",
+        "subjectType": "PP",
+        "attended": 15,
+        "delivered": 18
+      },
+      {
+        "subjectName": "COMMUNITY SERVICES",
+        "courseCode": "CS002",
+        "subjectType": "PP",
+        "attended": 0,
+        "delivered": 0
+      },
+      {
+        "subjectName": "MINOR PROJECT",
+        "courseCode": "ENSI252",
+        "subjectType": "PR",
+        "attended": 0,
+        "delivered": 0
+      }
+    ]
+  }
+]
