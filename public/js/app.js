@@ -307,7 +307,7 @@ if (document.getElementById('mainContent')) {
             </div>
             <div class="info-item">
               <i class="fas fa-graduation-cap"></i>
-              <span>Academic Year 2024-25</span>
+              <span>Academic Year 2026-27</span>
             </div>
             <div class="info-item">
               <i class="fas fa-calendar"></i>
