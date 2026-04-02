@@ -3,78 +3,78 @@
     "rollNumber": "2401420048",
     "dateRange": {
       "from": "20/01/2026",
-      "to": "31/05/2026"
+      "to": "02/04/2026"
     },
     "subjects": [
       {
         "subjectName": "DATABASE MANAGEMENT SYSTEMS LAB",
         "courseCode": "ENCS254",
         "subjectType": "PR",
-        "attended": 11,
-        "delivered": 12
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "COMPETITIVE CODING-II",
         "courseCode": "AUC002",
         "subjectType": "PP",
-        "attended": 21,
-        "delivered": 24
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "DATABASE MANAGEMENT SYSTEMS",
         "courseCode": "ENCS204",
         "subjectType": "PP",
-        "attended": 23,
-        "delivered": 26
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "ANALYSIS AND DESIGN OF ALGORITHMS",
         "courseCode": "ENCS202",
         "subjectType": "PP",
-        "attended": 22,
-        "delivered": 25
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "DATA SCIENCE LAB",
         "courseCode": "ENSP254",
         "subjectType": "PR",
-        "attended": 8,
-        "delivered": 8
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "PROBABILITY AND STATISTICS",
         "courseCode": "ENMA202",
         "subjectType": "PP",
-        "attended": 20,
-        "delivered": 23
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "ANALYSIS AND DESIGN OF ALGORITHMS LAB",
         "courseCode": "ENCS256",
         "subjectType": "PR",
-        "attended": 7,
-        "delivered": 8
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "INTRODUCTION TO DATA SCIENCE",
         "courseCode": "ENSP204",
         "subjectType": "PP",
-        "attended": 23,
-        "delivered": 26
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "COMMUNICATION & PERSONALITY DEVELOPMENT",
         "courseCode": "AEC007",
         "subjectType": "PP",
-        "attended": 16,
-        "delivered": 18
+        "attended": 4,
+        "delivered": 5
       },
       {
         "subjectName": "FASHION DESIGN DEVELOPMENT",
         "courseCode": "ADOEFD056",
         "subjectType": "PP",
-        "attended": 11,
-        "delivered": 18
+        "attended": 3,
+        "delivered": 5
       },
       {
         "subjectName": "COMMUNITY SERVICES",
