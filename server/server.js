@@ -178,13 +178,7 @@ app.get('/api/attendance/:rollNumber', (req, res) => {
     }
 
     // Calculate percentage and absent days
-    // For roll number 2401420048, use fixed percentage of 79.17%
-    let percentage;
-    if (rollNumber === '2401420048') {
-      percentage = '79.17';
-    } else {
-      percentage = ((attendance.presentDays / attendance.totalDays) * 100).toFixed(2);
-    }
+    const percentage = ((attendance.presentDays / attendance.totalDays) * 100).toFixed(2);
     const absentDays = attendance.totalDays - attendance.presentDays;
 
     res.json({
@@ -389,24 +383,15 @@ app.get('/api/subject-attendance/:rollNumber', (req, res) => {
     });
 
     // Calculate total percentage
-    // For roll number 2401420048, use fixed values
-    let totalPercentage;
-    let displayTotalAttended = totalAttended;
-    
-    if (rollNumber === '2401420048') {
-      totalPercentage = 79.17;
-      displayTotalAttended = 162; // Fixed display value
-    } else {
-      totalPercentage = totalDelivered > 0 
-        ? parseFloat(((totalAttended / totalDelivered) * 100).toFixed(2))
-        : 0;
-    }
+    const totalPercentage = totalDelivered > 0 
+      ? parseFloat(((totalAttended / totalDelivered) * 100).toFixed(2))
+      : 0;
 
     res.json({
       success: true,
       dateRange: studentAttendance.dateRange,
       subjects: studentAttendance.subjects,
-      totalAttended: displayTotalAttended,
+      totalAttended: totalAttended,
       totalDelivered: totalDelivered,
       totalPercentage: totalPercentage
     });
